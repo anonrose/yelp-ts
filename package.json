@@ -12,5 +12,8 @@
   "devDependencies": {
     "@types/node": "^22.4.1",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }

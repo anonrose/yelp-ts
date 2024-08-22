@@ -1,0 +1,7 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "plugins": [
+    "import",
+    "no-relative-import-paths"
+  ]
+}
