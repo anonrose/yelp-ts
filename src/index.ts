@@ -65,7 +65,7 @@ export default class YelpAPI {
         grant_type: "authorization_code",
         client_id: env.YELP_CLIENT_ID,
         code,
-        redirect_uri: `${env.NEXT_PUBLIC_URL}/api/callback/yelp`,
+        redirect_uri: `${env.PUBLIC_URL}/api/callback/yelp`,
         client_secret: env.YELP_CLIENT_SECRET,
       }),
     });
